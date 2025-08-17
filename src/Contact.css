@@ -1,0 +1,72 @@
+.contact-container {
+  background-image: url('./assets/background_navbar.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.contact-container h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.member-card {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 250px;
+  text-align: center;
+}
+
+.member-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.member-card h2 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.email-link {
+  display: block;
+  color: #F96610;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.social-links a {
+  color: #F96610;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  color: black;
+}
