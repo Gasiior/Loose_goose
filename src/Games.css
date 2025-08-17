@@ -1,0 +1,22 @@
+.games-container {
+  background-color: #101818;
+  height: 52vh; /* pełna wysokość widoku */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.games-container h2 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 0rem;
+}
+.slogan {
+  font-family: 'Times New Roman', Times, serif;
+}
