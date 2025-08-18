@@ -10,7 +10,8 @@ const Contact = () => {
       image: Klaudia,
       socials: [
         { name: "Instagram", url: "https://instagram.com/klaudia" },
-        { name: "Twitter", url: "https://twitter.com/klaudia" },
+        { name: "Linkedin", url: "https://twitter.com/klaudia" },
+        { name: "Website", url: "https://twitter.com/klaudia" },
       ],
     },
     {
@@ -19,14 +20,14 @@ const Contact = () => {
       image: Zosia,
       socials: [
         { name: "Instagram", url: "https://instagram.com/zosia" },
-        { name: "Twitter", url: "https://twitter.com/zosia" },
+        { name: "Linkedin", url: "https://twitter.com/zosia" },
       ],
     },
   ];
 
   return (
     <div className="contact-container">
-      <h1>CONTACT US</h1>
+      <h1>CONTACT US!</h1>
       <div className="team-members">
         {contacts.map((person) => (
           <div className="member-card" key={person.email}>
@@ -45,13 +46,18 @@ const Contact = () => {
                 >
                   {social.name}
                 </a>
+                
               ))}
             </div>
           </div>
         ))}
       </div>
+      <div className="text-container">
+            </div>
     </div>
+    
   );
+  
 };
 
 export default Contact;

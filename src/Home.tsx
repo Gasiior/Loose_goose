@@ -58,17 +58,6 @@ const Home = () => {
     </div> 
 
     <div className="divider">
-    </div> 
-
-    <div className="countdown-container"> 
-        <div className="countdown"> 
-          <p>
-            {timeLeft.days}d : {timeLeft.hours}h : {timeLeft.minutes}m : {timeLeft.seconds}s 
-          </p>
-        </div>
-    </div>
-
-    <div className="divider">
     </div>
 
     <div className="home-us">
@@ -82,8 +71,7 @@ const Home = () => {
                 <img src={person2} alt="Osoba 2" className="member-img2" />     
           </div>
 
-    <div className="divider-white">
-    </div>
+    
 
     </div>
 

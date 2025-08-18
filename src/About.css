@@ -1,0 +1,15 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+    height: 100%;
+    width: 100%;
+    padding-top: 5rem;
+    text-align: center;
+}
+    
+.div4 {
+    grid-column: span 2 / span 2;
+}
+        

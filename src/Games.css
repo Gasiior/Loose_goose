@@ -1,22 +1,51 @@
+
 .games-container {
   background-color: #101818;
-  height: 52vh; /* pełna wysokość widoku */
+  min-height: 52vh;
+  max-height: 100vh ;
+  width: auto;/* pełna wysokość widoku */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  padding: 2rem;
   text-align: center;
-  box-sizing: border-box;
+  background-size: cover;
+  
+}
+.games-container {
+  animation: fade 0.5s ease-in;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  transform: translateY(10px);
+}
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .games-container h2 {
   font-size: clamp(1.5rem, 5vw, 3rem);
   font-weight: 700;
   color: #FFFFFF;
-  margin-bottom: 0rem;
+  margin-bottom: -5rem;
 }
 .slogan {
   font-family: 'Times New Roman', Times, serif;
+}
+.TOL {
+  background-color: #F96610;
+}
+.countdown-container {
+  animation: fade 0.5s ease-in;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  transform: translateY(10px);
+}
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -23,7 +23,7 @@ function Navbar() {
       <div className="navbar-right">
         <ul>
         <img src={logoSteam} alt="Logo" className="navbar-social" />
-        <img src={logoSteam} alt="Logo" className="navbar-social" />
+        
         </ul>
       </div>
 

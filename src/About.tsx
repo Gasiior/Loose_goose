@@ -1,9 +1,16 @@
+import "./About.css";
+
 const About = () => {
   return (
-    <div>
-      <h1>O nas</h1>
-      <p>Loose Goose Studios – jesteśmy szalonymi twórcami gier!</p>
+    <div className="parent">
+    <div className="div1">
+      <h1>Jdskdsdks</h1>
     </div>
+    <div className="div3">
+      fdfddffd
+      </div>
+    <div className="div4">4</div>
+</div>
   );
 };
 

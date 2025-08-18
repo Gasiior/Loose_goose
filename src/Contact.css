@@ -1,51 +1,90 @@
 .contact-container {
-  background-image: url('./assets/background_navbar.jpg');
+  background-image: url('./assets/background_2.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding-top: 4rem;
   text-align: center;
   box-sizing: border-box;
+  
+}
+.contact-container {
+  animation: fade 0.5s ease-in;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .contact-container h1 {
   font-size: clamp(2rem, 6vw, 3.5rem);
   font-weight: 700;
   color: #FFFFFF;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  margin-top: -1rem;
 }
 
 .team-members {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 6rem;
   justify-content: center;
+}
+.team-members {
+  animation: fade2 0.5s ease-in;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  transform: translateY(10px);
+}
+
+@keyframes fade2 {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .member-card {
-  background-color: rgba(0, 0, 0, 0.9);
-  border-radius: 8px;
-  padding: 1rem;
-  max-width: 250px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 400px;
+  padding: 2rem;
+  height: 398px;
   text-align: center;
+  
+  
 }
 
 .member-card img {
   width: 100%;
   height: auto;
-  border-radius: 50%;
+  margin-top: -50px;
   margin-bottom: 0.5rem;
+  
+  
+}
+.member-card img:hover {
+  
+  transform: scale(1.01);
+  filter: drop-shadow(0 0 8px #F96610);
+  opacity: 0.9;
 }
 
 .member-card h2 {
   margin: 0.5rem 0;
   font-size: 1.25rem;
-  color: #000;
+  color: #ffffff;
+  
 }
 
 .email-link {
@@ -53,20 +92,47 @@
   color: #F96610;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: 'Share Tech Mono', monospace;
+  
+}
+a.email-link:hover {
+    color: white;
+    transform: scale(1.05);
+  filter: drop-shadow(0 0 10px #F96610);
+  opacity: 0.9;
 }
 
 .social-links {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   justify-content: center;
+  padding-bottom: 2rem;
+  
 }
 
 .social-links a {
   color: #F96610;
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 .social-links a:hover {
-  color: black;
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
 }
+
+.member-card h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    
+}
+
+.text-container {
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  padding-top: 3rem;
+}
+

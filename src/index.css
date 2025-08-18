@@ -4,6 +4,7 @@ html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #101818;
 }
 
 /* Zmienne i ogólne ustawienia czcionki */
@@ -13,8 +14,8 @@ html, body, #root {
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color:  #101818;
+  background-color:  #101818;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -38,6 +39,7 @@ body {
   padding: 0;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 
 /* Nagłówki */
@@ -69,8 +71,8 @@ button:focus-visible {
 /* Motyw jasny (jeśli ustawiony) */
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color:  #101818;
+    background-color:  #101818;
   }
   a:hover {
     color: #747bff;
@@ -78,4 +80,29 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+body::-webkit-scrollbar {
+  width: 0px;
+  transition: width 0.3s ease;
+}
+
+body.scrolling::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #101818;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+body.scrolling::-webkit-scrollbar-thumb {
+  background-color: rgba(249, 102, 16, 1);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #101818;
+
 }

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Games.css";
+import TOL from "./assets/text-1755433995102.png";
 
 const Games = () => {
 
@@ -41,6 +42,7 @@ return (
   <>
 
     <div className="games-container">
+      <img className="TOL" src={TOL} alt="TOL" />
        <h2 className="slogan">Coming Soon</h2>
     </div>  
 
@@ -50,6 +52,7 @@ return (
             {timeLeft.days}d : {timeLeft.hours}h : {timeLeft.minutes}m : {timeLeft.seconds}s 
           </p>
         </div>
+        
     </div>
 
     </>
