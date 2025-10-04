@@ -1,25 +1,59 @@
 .blogpost-container {
   max-width: 800px;
-  margin: 4rem auto;
-  padding: 2rem;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  color: #fff;
   background-color: #101818;
-  color: white;
-  border-radius: 12px;
+  min-height: 100vh;
+  text-align: center;
 }
 
 .blogpost-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
   color: #F96610;
-  margin-bottom: 1rem;
 }
 
 .blogpost-date {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #aaa;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .blogpost-content {
-  font-size: 1.2rem;
+  text-align: left;
   line-height: 1.6;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+}
+
+.blogpost-content p {
+  margin-bottom: 1.5rem;
+}
+
+.blogpost-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.blogpost-content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #F96610;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.back-button:hover {
+  color: #ffffff;
+  transform: scale(1.01);
 }

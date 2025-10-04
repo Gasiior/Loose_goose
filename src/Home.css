@@ -119,7 +119,14 @@
   background-size: cover;
   background-position: center;
 }
-
+.member-img:hover {
+  transform: scale(1.05);
+  
+}
+.member-img2:hover {
+  transform: scale(1.05);
+  
+}
 
 .home-us-title {
   
@@ -139,6 +146,7 @@
   width: 1000px;
   height: auto;
   padding-right: 0px;
+  
 }
 .member-img2 {
   display: block;

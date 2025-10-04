@@ -46,7 +46,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #101818;
+  background-color: #0b1010;
   
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -71,7 +71,7 @@
 
 .blog-post:hover {
   transform: scale(1.01);
-  filter: drop-shadow(0 0 1px #F96610);
+  filter: drop-shadow(0 0 2px #F96610);
 }
 
 .post-title {
@@ -108,6 +108,8 @@
 
 .read-more:hover {
   background-color: #e75c0e;
+  color: #000000;
+  transform: scale(1.01);
   
 }
 
