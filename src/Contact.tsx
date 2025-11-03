@@ -1,6 +1,6 @@
 import "./Contact.css";
 import Klaudia from "./assets/Klaudia_photo.png";
-import Zosia from "./assets/Klaudia_photo.png";
+import Zosia from "./assets/Zosia_photo.png";
 
 const Contact = () => {
   const contacts = [
