@@ -4,13 +4,14 @@ import './BlogPost.css';
 
 import post1_1 from './assets/klaudia_zosia.png';
 
+
 const postData: Record<
   string,
   { title: string; date: string; content: React.ReactNode  }
 > = {
-  'our-game-dev-journey': {
-    title: 'Our Game Dev Journey',
-    date: 'August 17, 2025',
+  'one_year_mark': {
+    title: 'One year mark!',
+    date: 'November 4, 2025',
     content: (
       <>
         <p>
@@ -32,7 +33,7 @@ const postData: Record<
   },
   'why-we-chose-unreal-engine': {
     title: 'Why We Chose Unreal Engine',
-    date: 'August 10, 2025',
+    date: 'October 18, 2025',
     content: (
       <>
         <p>

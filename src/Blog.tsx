@@ -1,25 +1,25 @@
-import React from 'react';
+//import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Blog.css";
 
 import image1 from "./assets/Background_dark.jpg";
-import image2 from "./assets/Background_dark.jpg";
-import image3 from "./assets/Background_dark.jpg";
+import image2 from "./assets/unreal.png";
+import image3 from "./assets/klaudia_zosia.png";
 
 const Blog = () => {
   const posts = [
     {
-      title: 'Our Game Dev Journey',
+      title: 'One year mark!',
       date: 'August 17, 2025',
       summary: 'A behind-the-scenes look into how we’re building our dream game from scratch.',
       image: image1,
-      slug: 'our-game-dev-journey',
+      slug: 'one_year_mark',
       content: 'This is the full content of the first post...'
     },
     {
       title: 'Why We Chose Unreal Engine',
       date: 'August 10, 2025',
-      summary: 'An honest breakdown of why Unreal fits our needs better than Unity or Godot.',
+      summary: 'An honest breakdown of why Unreal fits our needs better than Unity or other engines.',
       image: image2,
       slug: 'why-we-chose-unreal-engine',
       content: 'Here goes full content of this post...'

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "./assets/Logo_White_Graphic_PNG.png"; // ścieżka do logo
-import logoSteam from './assets/stram.png';
+{/*import logoSteam from './assets/stram.png';*/}
 function Navbar() {
   return (
     <nav className="navbar">
@@ -14,7 +14,7 @@ function Navbar() {
         <ul>
           <li><Link to="/">HOME</Link></li>
           <li><Link to="/games">OUR GAMES</Link></li>
-          <li><Link to="/about">ABOUT US</Link></li>
+          {/* <li><Link to="/about">ABOUT US</Link></li>*/}
           <li><Link to="/contact">CONTACT</Link></li>
           <li><Link to="/Blog">FLIGHT LOG</Link></li>
         </ul>
@@ -22,7 +22,7 @@ function Navbar() {
 
       <div className="navbar-right">
         <ul>
-        <img src={logoSteam} alt="Logo" className="navbar-social" />
+        {/* <img src={logoSteam} alt="Logo" className="navbar-social" /> */}
         
         </ul>
       </div>

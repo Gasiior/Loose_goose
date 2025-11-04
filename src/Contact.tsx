@@ -6,21 +6,20 @@ const Contact = () => {
   const contacts = [
     {
       name: "Klaudia Gąsiorek",
-      email: "klaudiagasiorek@loosegoose.com",
+      email: "Klaudia.Gasiorek@loosegoosestudios.com",
       image: Klaudia,
       socials: [
-        { name: "Instagram", url: "https://instagram.com/klaudia" },
-        { name: "Linkedin", url: "https://twitter.com/klaudia" },
-        { name: "Website", url: "https://twitter.com/klaudia" },
+        { name: "Instagram", url: "https://www.instagram.com/klaudiag_graphic" },
+        { name: "Linkedin", url: "https://www.linkedin.com/in/klaudia-g%C4%85siorek-199253239" },
+        { name: "Website", url: "https://klaudiagasiorek.pl/" },
       ],
     },
     {
       name: "Zosia Błażejczyk",
-      email: "klaudiagasiorek@loosegoose.com",
+      email: "Zofia.Blazejczyk@loosegoosestudios.com",
       image: Zosia,
       socials: [
-        { name: "Instagram", url: "https://instagram.com/zosia" },
-        { name: "Linkedin", url: "https://twitter.com/zosia" },
+        { name: "Linkedin", url: "https://www.linkedin.com/in/zofia-b%C5%82a%C5%BCejczyk-437909306/" },
       ],
     },
   ];
