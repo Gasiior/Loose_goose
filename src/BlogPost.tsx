@@ -15,18 +15,26 @@ const postData: Record<
     content: (
       <>
         <p>
-          Welcome to our very first devlog post! We're Loose Goose Studios – two indie developers with a big dream: creating emotionally charged, atmospheric games from scratch.
+          &nbsp;&nbsp;&nbsp;&nbsp;So… we did it. One year of Loose Goose Studios.<br></br>
+          <br></br>&nbsp;&nbsp;&nbsp;&nbsp;A year of learning, crashing, debugging, laughing (a little), crying (a lot)
+          and realizing that making games is equal parts chaos and magic. <br></br>
+          <br></br> &nbsp;&nbsp;&nbsp;&nbsp;When we started, we didn’t really know what we were getting into. 
+          We just wanted to create something of our own — a game that feels alive, weird, and a little unsettling. 
+          Fast forward twelve months, and Trail of Innocence is slowly turning from an idea on paper into something real.<br></br> 
         </p>
+        <img src={post1_1} alt="Founders of Loose Goose Studios" className="blogpost-image" />
         <p>
-          We've spent the last 6 months building our first project, from concept sketches to early prototypes. Here's a peek:
-        </p>
-        <img src= {post1_1} alt="Early prototype" className="blogpost-image" />
-        <p>
-          The goal has always been to blend beautiful visuals with unsettling horror mechanics, meaningful characters, and stories that leave an impression. We've been experimenting with Unreal Engine’s landscape tools, lighting, and AI pathfinding.
-        </p>
-        <img src="/assets/dev_screenshot2.jpg" alt="Level design test" className="blogpost-image" />
-        <p>
-          Stay tuned – the goose is loose, and it’s building nightmares.
+          &nbsp;&nbsp;&nbsp;&nbsp;In the past year, we’ve:<br></br>
+– broken the project at least fifty times (and fixed it forty-nine),<br></br>
+– spent more hours in Unreal Engine than we’d like to admit,<br></br>
+– learned that “just a small change” is the deadliest phrase in game dev.<br></br>
+          <br></br>&nbsp;&nbsp;&nbsp;&nbsp;But most importantly — we grew. Not just as developers, but as a team, as storytellers, 
+          and as two people crazy enough to keep going even when everything goes sideways. 
+          To everyone who followed us, supported us, or just dropped a message saying “hey, this looks cool” — thank you. 
+          You’re the reason we keep pushing.<br></br><br></br>
+           Here’s to another year of chaos, code, and creepy hallways.
+          Loose Goose Studios — still small, still indie, still very much alive.<br></br>
+          <br></br><br></br> <b>Klaudia & Zosia </b>
         </p>
       </>
     ),

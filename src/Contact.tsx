@@ -16,7 +16,7 @@ const Contact = () => {
     },
     {
       name: "Zosia Błażejczyk",
-      email: "Zofia.Blazejczyk@loosegoosestudios.com",
+      email: "Zosia.Blazejczyk@loosegoosestudios.com",
       image: Zosia,
       socials: [
         { name: "Linkedin", url: "https://www.linkedin.com/in/zofia-b%C5%82a%C5%BCejczyk-437909306/" },
