@@ -48,3 +48,32 @@
   height: 30px;
   margin-top: -1rem;
 }
+
+/* --- Wersja Mobilna (działa tylko na telefonach) --- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .navbar-left, .navbar-right {
+    position: static; /* Wyłącza "przyklejenie" logo i ikon, żeby ułożyły się w stos */
+    margin: 10px 0;
+  }
+
+  .navbar-logo {
+    height: 60px; /* Nieco mniejsze logo */
+    margin-top: 0;
+  }
+
+  .navbar-center ul {
+    flex-direction: column; /* Menu pionowe zamiast poziomego */
+    gap: 15px;
+    padding: 0;
+  }
+  
+  .navbar li a {
+    font-size: 1.2rem; /* Większe napisy w menu, łatwiejsze do kliknięcia */
+  }
+}

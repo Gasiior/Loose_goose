@@ -49,3 +49,19 @@
     transform: translateY(0);
   }
 }
+
+/* --- Wersja Mobilna --- */
+@media (max-width: 768px) {
+  .games-container {
+    padding-top: 100px;
+  }
+  
+  .games-container h2 {
+    margin-bottom: 0;
+  }
+  
+  .TOL {
+    width: 90%; /* Obrazek tytułu gry dopasowany do ekranu */
+    height: auto;
+  }
+}

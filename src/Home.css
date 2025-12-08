@@ -174,3 +174,40 @@
   color: black;
 }
 
+/* --- Wersja Mobilna --- */
+@media (max-width: 768px) {
+  .home-container {
+    height: auto; /* Pozwala stronie rosnąć w dół na telefonie */
+    min-height: 100vh;
+    padding-top: 150px; /* Miejsce na wysokie menu mobilne */
+  }
+
+  .logo {
+    width: 80% !important; /* Naprawia szerokość logo na telefonie */
+    max-width: 300px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  /* Naprawa zdjęć członków zespołu */
+  .member-img, .member-img2 {
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px; /* Margines po bokach */
+  }
+  
+  .home-us-title {
+    margin-top: 2rem;
+    padding-top: 0;
+    font-size: 2.5rem;
+  }
+  
+  .countdown-title {
+    font-size: 3rem;
+  }
+  
+  .countdown {
+    font-size: 1.8rem;
+  }
+}
