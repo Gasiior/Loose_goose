@@ -23,6 +23,43 @@
   transition: 0.3s;
   border-radius: 2px;
 }
+.navbar-logo {
+  height: 80px; 
+  margin-top: -1.5rem;
+}
+.navbar-logo a:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px #F96610);
+  opacity: 0.9;
+}
+.navbar {
+  background-color: #101818;
+  padding: 30px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} 
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-left: -8rem;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s ease;
+  font-size: 1rem;
+}
+.navbar li a:hover {
+  color: #F96610;
+}
+
+
 
 /* --- Wersja Mobilna (Hamburger Menu) --- */
 @media (max-width: 768px) {
