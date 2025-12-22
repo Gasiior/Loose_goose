@@ -177,37 +177,33 @@
 /* --- Wersja Mobilna --- */
 @media (max-width: 768px) {
   .home-container {
-    height: auto; /* Pozwala stronie rosnąć w dół na telefonie */
+    height: auto;
     min-height: 100vh;
-    padding-top: 150px; /* Miejsce na wysokie menu mobilne */
+    /* To naprawia GAP: dajemy padding równy wysokości navbara + trochę luzu */
+    padding-top: 80px; 
+    /* Upewniamy się, że tło pokrywa całość */
+    background-size: cover;
+    background-position: center top;
   }
 
   .logo {
-    width: 80% !important; /* Naprawia szerokość logo na telefonie */
+    width: 70%; 
     max-width: 300px;
-    margin-top: 0;
+    margin-top: 2rem; /* Odsunięcie od góry, żeby nie dotykało navbara */
     margin-bottom: 2rem;
   }
 
-  /* Naprawa zdjęć członków zespołu */
-  .member-img, .member-img2 {
-    width: 100%; 
-    max-width: 100%;
-    height: auto;
-    padding: 0 10px; /* Margines po bokach */
-  }
-  
+  /* Reszta bez zmian */
   .home-us-title {
     margin-top: 2rem;
     padding-top: 0;
     font-size: 2.5rem;
   }
   
-  .countdown-title {
-    font-size: 3rem;
-  }
-  
-  .countdown {
-    font-size: 1.8rem;
+  .member-img, .member-img2 {
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
   }
 }

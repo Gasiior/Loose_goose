@@ -106,3 +106,10 @@ body::-webkit-scrollbar-track {
   background-color: #101818;
 
 }
+@media (max-width: 768px) {
+html, body {
+  overflow-x: hidden; /* To jest kluczowe */
+  width: 100%;
+  position: relative;
+}
+}
