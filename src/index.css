@@ -1,10 +1,20 @@
-
+html {
+  /* To jest kluczowa linijka - sprawia, że pasek jest "nad" treścią */
+  overflow-y: overlay; 
+}
 /* Wysokość całego dokumentu */
 html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
   background-color: #101818;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Blokada scrollowania na boki */
+  width: 100%;
+  position: relative;
 }
 
 /* Zmienne i ogólne ustawienia czcionki */

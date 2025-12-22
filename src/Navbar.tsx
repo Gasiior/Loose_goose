@@ -14,7 +14,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-left">
+          <Link to="https://loosegoosestudios.com">
           <img src={logo} alt="Logo" className="navbar-logo" />
+          </Link>
         </div>
 
         {/* Przycisk Hamburgera (widoczny tylko na mobile) */}
