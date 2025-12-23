@@ -148,4 +148,26 @@
   .navbar li a {
     font-size: 1.5rem; /* Większa czcionka w menu mobilnym */
   }
+
+  .navbar-center ul {
+    /* KLUCZOWE POPRAWKI: */
+    padding: 0;       /* Usuwa domyślne wcięcie listy, które przesuwa ją w prawo */
+    margin: 0;        /* Usuwa marginesy */
+    width: 100%;      /* Lista zajmuje całą szerokość */
+    
+    /* Ustawienia flexboxa */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%; 
+    gap: 30px;
+  }
+
+  /* Dodatkowo dla pewności centrujemy same elementy listy */
+  .navbar li {
+    list-style: none; /* Usuwa kropki */
+    width: 100%;      
+    text-align: center;
+  }
 }

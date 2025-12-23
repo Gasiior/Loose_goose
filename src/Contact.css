@@ -142,8 +142,12 @@ a.email-link:hover {
     height: auto;
     padding-top: 100px;
     padding-bottom: 50px;
+    margin-top: -6rem;
   }
+  .contact-container h1 {
+    margin-top: 7rem;
 
+  }
   .team-members {
     gap: 2rem;
   }
@@ -167,4 +171,6 @@ a.email-link:hover {
     font-size: 0.9rem; /* Mniejszy email, żeby nie wychodził poza ekran */
     word-break: break-all; /* Łamie długie maile jeśli trzeba */
   }
+
+  
 }

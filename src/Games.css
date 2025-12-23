@@ -64,4 +64,19 @@
     width: 90%; /* Obrazek tytułu gry dopasowany do ekranu */
     height: auto;
   }
+  .countdown-container {
+    padding: 20px 10px; /* Mniejsze odstępy */
+    min-height: auto;   /* Zmniejszamy wysokość sekcji */
+  }
+
+  .countdown-title {
+    font-size: 2rem; /* Zmniejszamy tytuł (z 5rem na 2rem) */
+    margin-bottom: 0.5rem;
+  }
+
+  .countdown {
+    font-size: 1.5rem;   /* Zmniejszamy licznik (z 4rem na 1.5rem) */
+    white-space: nowrap; /* ZABRANIA łamania linii - trzyma wszystko w jednym wierszu */
+          /* Pewność, że kontener jest szeroki */
+  }
 }
