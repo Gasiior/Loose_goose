@@ -45,18 +45,19 @@ const postData: Record<
     content: (
       <>
         <p>
-          After testing Unity, Godot, and Unreal, we went with Unreal Engine 5 for its unmatched lighting and cinematic capabilities.
+          Why We Chose Unreal Engine
         </p>
         <p>
-          Features we love:
+          Choosing the right engine is one of those decisions that quietly shapes everything that comes after. For us, Unreal Engine wasn’t a 
+          carefully calculated business choice made after weeks of comparisons. It simply stayed with us.
         </p>
-        <ul>
-          <li>Nanite and Lumen for insane detail and lighting</li>
-          <li>Blueprints for fast prototyping</li>
-          <li>Strong asset marketplace</li>
-        </ul>
         <p>
-          We’ll share more technical devlogs soon!
+          Our journey with Unreal started back at university, when we first worked with Unreal Engine 4. At the time, it was part of our studies,
+           not a long-term plan. But once you spend enough hours inside an engine, building levels at 2 a.m., fighting lighting bugs, breaking 
+           Blueprints and fixing them again it becomes familiar.
+        </p>
+        <p>
+          
         </p>
       </>
     ),

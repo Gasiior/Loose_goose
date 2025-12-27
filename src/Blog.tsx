@@ -18,7 +18,7 @@ const Blog = () => {
     },
     {
       title: 'Why We Chose Unreal Engine',
-      date: 'August 10, 2025',
+      date: 'October 18, 2025',
       summary: 'An honest breakdown of why Unreal fits our needs better than Unity or other engines.',
       image: image2,
       slug: 'why-we-chose-unreal-engine',
